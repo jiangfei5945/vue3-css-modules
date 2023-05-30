@@ -1,7 +1,10 @@
 {
   "name": "vue3-css-modules",
   "version": "0.0.0",
-  "private": true,
+  "author": "jiangfei5945",
+  "license": "MIT",
+  "repository": "https://github.com/jiangfei5945/vue3-css-modules",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
