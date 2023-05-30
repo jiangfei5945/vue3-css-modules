@@ -1,14 +1,18 @@
 import { defineComponent } from 'vue'
-import { container, secondary } from '../styles/app.css'
+import { primary, themeClass, container, header } from '../styles/app.css'
 
 export default defineComponent({
   name: 'HomeView',
   setup() {
     return () => (
-      <p class={container}>
-        hell world
-        <button class={secondary}>提交</button>
-      </p>
+      <>
+        <header class={header}>my header</header>
+        <p class={themeClass}>
+          hell world
+          <button class={primary}>提交</button>
+          <div class={container}></div>
+        </p>
+      </>
     )
   }
 })
