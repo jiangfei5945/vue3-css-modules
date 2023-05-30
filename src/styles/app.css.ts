@@ -1,6 +1,6 @@
 import { style, globalStyle, createTheme } from '@vanilla-extract/css'
 
-export const header = style({
+export const myHeader = style({
   fontSize: '16px',
   fontWeight: 700,
   lineHeight: 1.2,
