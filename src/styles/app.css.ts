@@ -18,8 +18,7 @@ export const [themeClass, vars] = createTheme({
   }
 })
 
-export const container = style({
-  padding: 10,
+export const label = style({
   color: vars.color.text,
   // 伪类选择器
   ':hover': {
@@ -32,7 +31,7 @@ globalStyle('body', {
   background: 'darkgray'
 })
 
-// 样式复用
+// 样式组合
 export const base = style({ padding: 12 })
 
 export const primary = style([base, { background: vars.color.brand }])
